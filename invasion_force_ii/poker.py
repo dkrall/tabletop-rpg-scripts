@@ -87,7 +87,6 @@ def printOpponent(opponent, index, isPrintRules, numRound, isTipped=False):
             if isPrintRules:
                 print('Each round, roll d20 + Int (+2) + round counter (0-7)')
             else:
-                print('Raw roll was ' + str(roll))
                 bonus = 2 + numRound
         case OpponentTypes.PLANT:
             print('Church of Norebo Plant')
